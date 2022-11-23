@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <title>Rollar Coaster</title>
+</head>
+<body>
+    <script>
+        var age=prompt('what is your age?');
+        if(age<18)
+        {
+            var parentspermission=confirm('I Have Parent Permission');
+            if(parentspermission)
+            {
+                alert('you are allowed for ride');
+            }
+            else
+            {
+                alert('you are not allowed for ride');
+            }
+        }
+        else if(age>60)
+        {
+            alert('you are not allowed for ride');
+        }
+        else
+        {
+              alert('you are allowed for ride');
+        }
+    </script>
+</body>
+</html>
